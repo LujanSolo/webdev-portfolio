@@ -1,11 +1,8 @@
-html {
+/* html {
   font-size: 62.5%;
 }
 
 div {
-  display: grid;
-  grid-template-columns: auto auto;
-  gap: 3em;
   padding: 2.2em;
   margin: 3rem;
   align-items: center;
@@ -18,4 +15,4 @@ h2 {
 p {
   font-size: 1.8rem;
   text-align: right;
-}
+} */
