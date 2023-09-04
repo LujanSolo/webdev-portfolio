@@ -1,24 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 62.5%;
-}
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(to right, gray, rgba(115, 115, 201, 0.77), rgb(206, 206, 206));
 }
 
-.navGrid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
-  background-color: rgb(83, 145, 212);
-  justify-content: space-evenly;
-  list-style: none;
-  font-size: 1.8rem;
-  color: rgb(224, 223, 144);
+.myNav {
+  background-color: rgb(37, 36, 34);
+  margin-top: -8px;
+  border: 0.3em rgb(176, 200, 223) double;
+  padding: 1em 0;
 }
 
+.myNav a {
+  color: rgb(202, 229, 246);
+}
+
+.about-me {
+  padding: 2em 3em;
+  line-height: 1.6;
+  text-align: end;
+ 
+}
