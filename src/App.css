@@ -9,6 +9,16 @@ html {
 }
 
 body {
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: rgb(83, 145, 212);
+  justify-content: space-evenly;
+  list-style: none;
+  font-size: 1.8rem;
+  color: rgb(224, 223, 144);
 }
 
