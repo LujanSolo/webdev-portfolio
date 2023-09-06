@@ -1,13 +1,16 @@
-import './App.css'
-import AboutMe from './assets/components/aboutMe/About';
-import Navbar from './assets/components/navbar/Navbar';
+import './App.css';
+import { Link } from 'react-router-dom';
 
 function App() {
 
   return (
     <>
-      <Navbar />
-      <AboutMe />
+      <h1>Links</h1>
+      <ul>
+        <li>
+          <Link to='about-me'>About ME</Link>
+        </li>
+      </ul>
     </>
   )
 }
